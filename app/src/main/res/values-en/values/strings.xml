@@ -1,0 +1,35 @@
+<resources>
+    <string name="serverPaths">http://access-apps.ma/androidApi/</string>
+    <string name="PathServer">http://access-apps.ma/androidApi/</string>
+    <string name="app_id" >2018_1_5_2</string>
+    <string name="server1">http://www.mocky.io/v2/5af200ae3000002b00ba8281/</string>
+    <string name="server2">http://ptsv2.com/t/k6upo-1525830108/</string>
+    <string name="server3">http://www.mocky.io/v2/5af29e22300000be1eba840d/</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">T_5_9_AKEِ</string>
+    <string name="dialogTitle">Choisir la forme</string>
+    <string name="square">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Cercle</string>
+    <string name="start">Colorier</string>
+    <string name="cancel">َAnnuler</string>
+    <string name="save">Sauvegarder</string>
+    <string name="playBtn">Play Game</string>
+    <string name="settingTitle">Paramètres</string>
+    <string name="chooseLang">Choisir la langue :</string>
+    <string name="choosePercent">Choisir le pourcentage minimale de la forme à colorer :</string>
+    <string name="chooseNbrTen">Choisir le pourcentage à ne pas dépasser en dehors de la forme :</string>
+
+    <string name="winExp1">Incroyable !</string>
+    <string name="winExp2">Brillant !</string>
+    <string name="winExp3">Excellent !</string>
+
+    <string name="loseExp1">Tu as les ressources en toi pour y arriver.</string>
+    <string name="loseExp2">Prends ton temps, je crois en toi.</string>
+    <string name="loseExp3">Ce n’est qu’une question de temps et d\'entraînement.</string>
+
+    <string name="existMessage">Etes-vous sûr ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+</resources>

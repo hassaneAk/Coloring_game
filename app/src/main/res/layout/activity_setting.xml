@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.med.com.drawing.SettingActivity"
+    android:id="@+id/activity_setting">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/settingTitle"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:fontFamily="@font/blacklist"
+        android:layout_margin="10dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/middleLayout"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/bottomRelativeLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/blacklist"
+            android:text="@string/choosePercent"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/percentSpinner"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:spinnerMode="dropdown"
+            android:layout_toRightOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tentativeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/percentSpinner"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/blacklist"
+            android:text="@string/chooseNbrTen"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/tentativeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tentativeTextView"
+            android:layout_toEndOf="@+id/tentativeTextView"
+            android:layout_toRightOf="@+id/tentativeTextView"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/buttonfont"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="save"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:layout_toEndOf="@+id/save"
+            android:layout_toRightOf="@+id/save"
+            android:fontFamily="@font/buttonfont"
+            android:onClick="cancel"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

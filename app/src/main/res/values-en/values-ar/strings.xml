@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="serverPaths">http://access-apps.ma/androidApi/</string>
+    <string name="PathServer">http://access-apps.ma/androidApi/</string>
+    <string name="app_id" >2018_1_5_2</string>
+    <string name="server1">http://www.mocky.io/v2/5af200ae3000002b00ba8281/</string>
+    <string name="server2">http://ptsv2.com/t/k6upo-1525830108/</string>
+    <string name="server3">http://www.mocky.io/v2/5af29e22300000be1eba840d/</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">T_5_9_AKE</string>
+    <string name="dialogTitle">إختيار الشكل</string>
+    <string name="square">مستطيل</string>
+    <string name="triangle">مثلث</string>
+    <string name="circle">دائرة</string>
+    <string name="start">إبدأ الرسم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="playBtn">إبدإ اللعبة</string>
+    <string name="settingTitle">إعدادات</string>
+    <string name="chooseLang">إختيار اللغة</string>
+    <string name="save">حفظ</string>
+    <string name="choosePercent">اختر النسبة الأدنى من الشكل المراد تلوينه :</string>
+    <string name="chooseNbrTen">اختر النسبة المراد عدم تجاوزها خارج النموذج :</string>
+    <string name="winExp1">مذهل</string>
+    <string name="winExp2">رائع</string>
+    <string name="winExp3">ممتاز !</string>
+    <string name="loseExp1">لديك جميع المتطلبات للحصول على نتيجة أفضل.</string>
+    <string name="loseExp2">خذ وقتك ، أنا أؤمن بك.</string>
+    <string name="loseExp3">انها فقط مسألة وقت وممارسة.</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="existMessage">هل أنت متأكد ؟</string>
+
+</resources>

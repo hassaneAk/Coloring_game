@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.med.com.drawing.OrganisationsActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+    >
+
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:onClick="refresh"
+        android:src="@drawable/ic_action_refresh" />
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:src="@drawable/ic_action_settings"/>
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:onClick="organisationlogoff"
+        android:src="@drawable/ic_action_logout"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Organisations"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/search"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="#11000000"
+        android:drawableRight="@drawable/ic_action_search"
+        android:hint="search"
+        android:paddingLeft="15dp"
+
+        android:layout_marginBottom="15dp"/>
+
+    <ListView
+        android:id="@+id/kids_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="serverPaths">http://access-apps.ma/androidApi/</string>
+    <string name="PathServer">http://access-apps.ma/androidApi/</string>
+    <string name="app_id" >2018_1_5_2</string>
+    <string name="server1">http://www.mocky.io/v2/5af200ae3000002b00ba8281/</string>
+    <string name="server2">http://ptsv2.com/t/k6upo-1525830108/</string>
+    <string name="server3">http://www.mocky.io/v2/5af29e22300000be1eba840d/</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">T_5_9_AKEِ</string>
+    <string name="dialogTitle">Choose Form</string>
+    <string name="square">Square</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="start">Draw</string>
+    <string name="save">Save</string>
+    <string name="cancel">Exit</string>
+    <string name="playBtn">Play Game</string>
+    <string name="settingTitle">Settings</string>
+    <string name="chooseLang">Choose Language</string>
+    <string name="choosePercent">Choose the minimal percentage of the form to fill :</string>
+    <string name="chooseNbrTen">Choose the percentage not to exceed outside the form :</string>
+
+    <string name="existMessage">Are you sûr ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="winExp1">Amazing !</string>
+    <string name="winExp2">Brilliant !</string>
+    <string name="winExp3">Excellent !</string>
+
+    <string name="loseExp1">You got all the resources in you to do it. Keep trying.</string>
+    <string name="loseExp2">Take your time, i believe you can do it. Keep trying.</string>
+    <string name="loseExp3">It\'s just a matter of time and practice. Keep practicing.</string>
+
+</resources>
